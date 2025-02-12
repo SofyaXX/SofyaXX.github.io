@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Тур компания</title>
+</head>
+<body>
+    <header class="header">
+<div class="container flex header-container">
+    <a href="index.html" class="header-logo">
+        <div class="tur-tur">
+            <img src="img/icons8-море-48.png" alt="">
+        </div>
+       <p class="header-logo"   alt="logo"> TravelCompany</p>  
+    </a>
+    <nav class="header-nav">
+        <ul class="list-reset header-list list-reset flex"> 
+            
+            <li class="header-list-item"><a href="index.html" class="header-link">Главная</a></li>
+            <li class="header-list-item"><a href="katalog.html" class="header-link">Каталог</a></li>
+            <li class="header-list-item"><a href="#contacts" class="header-link">Контакты</a></li>
+            <li class="header-list-item"><a href="kabinet.html" class="header-link">Личный кабинет</a></li>
+            <div class="icon">
+           
+            <a href="basket.html">   <img src="img/basket.png" class="basket" style="width: 30px; height: 25px;"> </a> 
+            </div>
+        </ul>
+    </nav>
+</div>
+    </header>
+    <main class="main">
+<section id="hero" class="hero">
+<div class="container">
+<div class="hero-content flex">
+<h1 class="hero-title">Добро пожаловать в мир незабываемых путешествий!</h1>
+<p class="hero-descr">Наша компания предлагает вам уникальные туры по самым живописным уголкам мира. Мы знаем, насколько важно выбрать идеальное направление для вашего отдыха, поэтому предлагаем широкий выбор маршрутов – от экзотических стран до уединенных уголков природы.</p>
+
+<div class="hero-wrapper">
+
+<a href="katalog.html"><button class="btn-reset btn hero-btn">НАЙТИ ТУР</button></a>
+<span class="hero-secure">SSL secured connection</span>
+</div>
+</div>
+</div>
+
+</section>
+
+    <section id="articles" class="articles section-offset">
+        <div class="container">
+            <h2 class="section-title articles-title">
+                Категории туров
+            </h2>
+            <ul class="list-reset articles-list flex">
+              <a href="katalog3.html"> <li class="articles-item">
+                    <article class="blog-preview flex">
+                        <img src="img/GettyImages-476653220.webp" alt="blog photo 1" class="blog preview-image" style="width: 180px; height:180px;">
+                        <div class="blog-preview-text">
+                            
+                            <h3 class="blog-preview-title">
+                                Европа
+                            </h3>
+                            <p class="blog-preview-descr">
+                                Путешествие по Европе — это погружение в историю и культуру старых городов.
+                            </p>
+                        </div>
+                    </article>
+                </li></a> 
+                <li class="articles-item">  <a href="katalog.html">
+                    <article class="blog-preview flex">
+                        <img src="img/orig.webp" alt="blog photo 2" class="blog preview-image" style="width: 180px; height:180px;">
+                        <div class="blog-preview-text">
+                           
+                            <h3 class="blog-preview-title">
+                                Острова
+                            </h3>
+                            <p class="blog-preview-descr">
+                                Путешествие по островам — это отдых на пляже среди экзотической природы.
+                            </p>
+                        </div>
+                    </article>
+                </li></a>
+                <li class="articles-item">  <a href="katalog2.html">
+                    <article class="blog-preview flex">
+                        <img src="img/e93f11b14a0c0806c9e29633bb141fb7.jpg" alt="blog photo 2" class="blog preview-image" style="width: 180px; height:180px;">
+                        <div class="blog-preview-text">
+                            
+                            <h3 class="blog-preview-title">
+                                США
+                            </h3>
+                            <p class="blog-preview-descr">
+                                Тур по США — это разнообразие ландшафтов и знаменитых городов.
+                            </p>
+                        </div>
+                    </article>
+                </li></a>
+                <li class="articles-item"> <a href="katalog4.html">
+                    <article class="blog-preview flex">
+                        <img src="img/i (1).webp" alt="blog photo 4" class="blog preview-image" style="width: 180px; height:180px;">
+                        <div class="blog-preview-text">
+                           
+                            <h3 class="blog-preview-title">
+                                Азия
+                            </h3>
+                            <p class="blog-preview-descr">
+                                Путешествие по Азии — это погружение в древние традиции, пейзажи.
+                            </p>
+                        </div>
+                    </article>
+                </li> </a>
+            </ul>
+        </div>
+    </section>
+    
+
+    <section id="join-us" class="join-us section-offset" style="margin-top: -50px; margin-bottom: -50px; height: 600px;">
+        <div class="container">
+    <h2 class="section-title join-us-title">Оставьте заявку</h2>
+    <p class="section-descr join-us-descr">
+       Оставьте свою заявку о желаемом туре и наш оператор свяжется с вами!
+    </p>
+    <form action="https:jsonplaceholder.typicode.com/posts" method="POST" class="form">
+        <div class="form-top">
+    <div class="form-left">
+    <input class="form-input" type="text" name="name" placeholder="Имя" required>
+    <input class="form-input" type="email" name="email" placeholder="E-mail" required>
+    <input class="form-input" type="tel" name="phone" placeholder="Телефон" required>
+    <select class="form-select" name="country" id="#">
+    <option value="Country" disabled selected>Страна</option>
+    <option value="United Kingdom">United Kingdom</option>
+    <option value="United States">United States</option>
+    <option value="France">France</option>
+    <option value="Germany">Germany</option>
+    <option value="Spain">Spain</option>
+    <option value="Estonia">Estonia</option>
+    
+    </select>
+    
+    </div>
+    <div class="form-right">
+        <textarea class="form-textarea" name="comment" placeholder="Комментарий"></textarea>
+        </div>
+        </div>
+        <div class="form-bottom">
+    <div class="form-wrapper">
+    <button class="btn1 btn-reset form-btn">Отправить</button>
+    <label class="form-check">
+    <input type="checkbox" required>
+    I agree with the <a href="#">user agreement</a>
+    </label>
+    </div>
+        </div>
+            
+    </form>
+        </div>
+        </section>
+
+
+
+        <section id="contacts" class="contacts section-offset">
+            <div class="container">
+                <h2 class="section-title contacts-title">
+                    Контакты
+                </h2>
+                <address class="contacts-address" >
+                    <ul class="list-reset contacts-list flex">
+                        <li class="contacts-item flex contacts-item-address">
+                            <strong class="contacts-item-caption">
+                                Наш офис
+                            </strong>
+                            <p class="contacts-item-text">
+                                Улица Фантазийная, дом 13, офис 42, город Мечта.
+                            </p>
+                        </li>
+                        <li class="contacts-item flex contacts-item-call" >
+                            <strong class="contacts-item-caption">
+                                Связь с нами
+                            </strong>
+                            <a href="tel:+79876543210" class="contacts-item-link">
+                                +7 (987) 654-32-10
+                            </a>
+                            <a href="tel:+71234567890" class="contacts-item-link">
+                                +7 (123) 456-78-90
+                            </a>
+                        </li>
+                        <li class="contacts-item flex contacts-item-mail">
+                            <strong class="contacts-item-caption">
+                                Наша почта
+                            </strong>
+                            <a href="mailto:example@example.com" class="contacts-item-link">
+                                example@example.com
+                            </a>
+                            <a href="mailto:support@example.com" class="contacts-item-link">
+                                support@example.com
+                            </a>
+                        </li>
+                    </ul>
+                </address>
+            </div>
+        </section>
+            </main>
+    
+
+
+
+
+        <footer class="footer">
+            <div class="container flex footer-container">
+                <div class="footer-left flex">
+                    <a href="index.html" class="header-logo">
+                        <div class="tur-tur">
+                            <img src="img/icons8-море-48.png" alt="">
+                        </div>
+                       <p class="header-logo12"   alt="logo"> TravelCompany</p>  
+                    </a>
+                    <small class="footer-copy">
+                        Copyright &copy;2017. All Right Reserved
+                    </small>
+                </div>
+                <div class="footer-right flex">
+                    <nav class="footer-nav">
+                        <ul class="list-reset footer-list flex">
+                            <li class="footer-item">
+                                <a href="index.html" target="_blank" class="footer-link">Главная</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="katalog.html" target="_blank" class="footer-link">Каталог</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="basket.html" target="_blank" class="footer-link">Корзина</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="#contacts" target="_blank" class="footer-link">Контакты</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="kabinet.html" target="_blank" class="footer-link">Личный кабинет</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <ul class="list-reset social flex">
+                        <li class="social-item"><a href="#" class="social-link social-link-tw"></a></li>
+                        <li class="social-item"><a href="#" class="social-link social-link-linkedin"></a></li>
+                        <li class="social-item"><a href="#" class="social-link social-link-mail"></a></li>
+                    </ul>
+                </div>
+            </div>
+            </footer>
+            </body>
+            </html>
+    
